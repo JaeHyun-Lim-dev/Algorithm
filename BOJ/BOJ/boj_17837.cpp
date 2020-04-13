@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/17837# include <cstdio>
+// https://www.acmicpc.net/problem/17837 # include <cstdio>
 struct ST {
 	int x, y;
 	int dir;
