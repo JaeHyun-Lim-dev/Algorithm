@@ -24,7 +24,6 @@ void push(int x, int y, int c, int k) {
 
 int main() {
 	scanf("%d %d", &N, &M);
-
 	for (int i = 0; i < N; i++) {
 		scanf("%s", &arr[i]);
 		for (int j = 0; j < M; j++) {
