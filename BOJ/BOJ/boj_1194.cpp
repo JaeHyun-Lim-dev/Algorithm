@@ -27,7 +27,7 @@ int main() {
 	for (int i = 0; i < N; i++) {
 		scanf("%s", &arr[i]);
 		for (int j = 0; j < M; j++) {
-			if (arr[i][j] == '0') push(i, j, 0, 0); // starting point
+			if (arr[i][j] == '0') push(i, j, 0, 0); // starting point 
 		}
 	}
 
