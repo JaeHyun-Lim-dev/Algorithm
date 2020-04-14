@@ -38,7 +38,7 @@ int main() {
 			return 0;
 		}
 		for (int k = 0; k < 4; k++) {
-			push(temp.x + dx[k], temp.y + dy[k], temp.cnt + 1, temp.key); // check => queue push
+			push(temp.x + dx[k], temp.y + dy[k], temp.cnt + 1, temp.key); // check, queue push
 		}
 	}
 
