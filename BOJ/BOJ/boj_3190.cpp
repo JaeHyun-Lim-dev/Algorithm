@@ -45,7 +45,8 @@ int main() {
 			break;
 		}
 		if (arr[x][y] == 0) {
-			arr[qx[front]][qy[front++]] = 0;
+			arr[qx[front]][qy[front]] = 0;
+			front++;
 		}
 		arr[x][y] = 2;
 	}
