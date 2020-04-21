@@ -65,7 +65,7 @@ void dfs(int cnt, int score) {
 		}
 	}
 }
-
+	
 int main() {
 	for (int i = 0; i < 10; i++) scanf("%d", &dice[i]);
 	horse[1] = carr[0][dice[0]];
