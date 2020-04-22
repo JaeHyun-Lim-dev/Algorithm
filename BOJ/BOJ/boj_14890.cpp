@@ -30,7 +30,7 @@ int main() {
 				flag = false; break;
 			}
 		}
-		if (flag) { printf("i = %d\n", i); ans++; }
+		if (flag) ans++;
 	}
 	for (int j = 0; j < N; j++) {
 		int prev = 1;
@@ -55,7 +55,7 @@ int main() {
 				flag = false; break;
 			}
 		}
-		if (flag) { printf("j = %d\n", j); ans++; }
+		if (flag) ans++;
 	}
 
 	printf("%d\n", ans);
