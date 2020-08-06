@@ -17,7 +17,6 @@ int main() {
 
 	for (int i = 0; i < N; i++) scanf("%lld", &arr[len / 2 + i]);
 	for (int i = (len / 2) - 1; i > 0; i--) arr[i] = arr[i * 2] + arr[i * 2 + 1];
-	//for (int i = 1; i < len; i++) printf("%d ", arr[i]);
 	int a;
 	for (int i = 0; i < M + K; i++) {
 		scanf("%d", &a);
@@ -32,7 +31,6 @@ int main() {
 				arr[b] = arr[b * 2] + arr[b * 2 + 1];
 				b /= 2;
 			}
-			//for (int i = 1; i < len; i++) printf("%d ", arr[i]);
 		}
 		else {
 			int b, c;
@@ -58,7 +56,6 @@ int main() {
 				}
 			}
 			printf("%lld\n", sum);
-			//for (int i = 1; i < len; i++) printf("%d ", arr[i]); 
 		}
 	}
 
